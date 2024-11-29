@@ -1,3 +1,37 @@
+.icon-my {
+    color: rgb(33, 223, 33);
+    border-top: 2px solid rgb(33, 223, 33);
+    border-left: 3px solid rgb(33, 223, 33);
+}
+
+.my-link {
+    color: whitesmoke;
+    border-bottom: 2px solid green;
+    transition: 2s;
+}
+
+.dropdown-my {
+    background-image: url('/public/media/bg_fullhd.webp');
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-image: url('/public/media/bg_fullhd.webp');
+    color: rgb(33, 223, 33);
+    border-left: 4px solid green;
+
+}
+
+.my-link:hover {
+    color: rgb(33, 223, 33);
+
+    border: 6px solid green;
+    transition: 0.5s;
+}
+
 .bg-custom {
     background-image: url('/public/media/bg_fullhd.webp');
     background-size: cover;
@@ -34,6 +68,8 @@
 
 }
 
+
+
 .number-carousel {
     font-size: 20px;
     font-weight: 700;
@@ -43,4 +79,21 @@
 .text-number {
     font-size: 20px;
 
+}
+
+.card-title-my {
+    font-size: 6vw;
+    font-weight: 800;
+    color: rgb(204, 202, 202);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.card-img-my {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.card-img-my {
+    border-radius: 12%;
 }

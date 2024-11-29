@@ -1,6 +1,6 @@
 <x-layout class="">
     <header>
-        <div class="container-fluid p-0 ">
+        <div class="container-fluid p-0 pb-5 ">
             <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-inner bg-custom ">
                     <div class="carousel-item active">
@@ -10,9 +10,9 @@
                                     <h2 class="title-slide">Impara, <br> Esplora, Valuta</h2>
                                     <p class="paragraph-header">la magnifica diversità <br> del regno animale</p>
 
-                                    <div class="row  text-center mt-5">
+                                    <div class="row  text-center mt-5 ">
                                         <div class="col-1">
-                                            <p class="text-white fs-5 "><span class="number-carousel">6350</span>
+                                            <p class="text-white fs-5  "><span class="number-carousel">6350</span>
                                                 <br>
                                                 mammiferi
                                             </p>
@@ -259,4 +259,24 @@
             </div>
 
     </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <h2 class="card-title-my ms-3">Imparare</h2>
+                    <div class="my-card ">
+                        <img src="/media/hope-bay-2016-trinity-peninsulaadlie-penguin-pygoscelis-adeliae-02jpg.webp"
+                            class="card-img-my" alt="">
+
+                    </div>
+
+
+
+                </div>
+                <div class="col-6">
+
+                </div>
+            </div>
+        </div>
+    </section>
 </x-layout>
