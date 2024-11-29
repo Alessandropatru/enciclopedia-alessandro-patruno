@@ -1,6 +1,6 @@
 <x-layout class="">
     <header>
-        <div class="container-fluid p-0 pb-5 ">
+        <div class="container-fluid p-0  ">
             <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-inner bg-custom ">
                     <div class="carousel-item active">
