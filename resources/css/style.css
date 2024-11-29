@@ -1,4 +1,46 @@
-.navbar-transparent {
-    background-color: transparent;
-    box-shadow: none;
+.bg-custom {
+    background-image: url('/public/media/bg_fullhd.webp');
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+.img-custom {
+    position: relative;
+    right: -23%;
+}
+
+.header-carousel-custom {
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 10rem;
+
+
+
+}
+
+.title-slide {
+    font-size: 7vw;
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+.paragraph-header {
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 500;
+
+
+
+}
+
+.number-carousel {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(33, 223, 33);
+}
+
+.text-number {
+    font-size: 20px;
+
 }
