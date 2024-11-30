@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-transparent mt-3">
+<nav class="navbar navbar-expand-lg fixed-top  bg-transparent mt-3">
     <div class="container-fluid ">
         <a class="navbar-brand" href="#"><i class="fa-solid fa-dragon fs-2 icon-my ms-3  p-3"></i></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"

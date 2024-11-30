@@ -90,10 +90,173 @@
 
 }
 
-.card-img-my {
-    border: 2px solid rgb(255, 255, 255);
+
+
+.card-img-my-2 {
+    border-radius: 48px;
+    width: 100%;
+
 }
 
+
+.image-container {
+
+    overflow: hidden;
+    /* Per nascondere lo zoom che va oltre i bordi */
+
+    border-radius: 48px;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+
+    transition: transform 0.5s ease, filter 0.5s ease;
+    /* Animazione per lo zoom e il filtro */
+}
+
+.image-container:hover img {
+    transform: scale(1.2);
+    /* Effetto zoom (20% in più) */
+    filter: hue-rotate(90deg);
+    /* Cambia il colore (puoi sostituire con altre opzioni) */
+}
+
+
+
+
 .card-img-my {
-    border-radius: 12%;
+    border-radius: 48px;
+    width: 100%;
+    height: 80vh;
+
+
+
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    border-radius: 10%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    z-index: 1;
+
+
+
+}
+
+.bg:hover {
+    background-color: rgb(81, 255, 0);
+}
+
+.bg:focus {
+    background-color: rgb(81, 255, 0);
+
+    outline: none;
+
+}
+
+.carousel-caption-custom {
+    position: absolute;
+    bottom: 39px;
+
+
+    left: 20px;
+    right: 20px;
+    z-index: 2;
+
+    color: white;
+}
+
+.carousel-caption-custom h2 {
+    font-size: 2.3em;
+    margin: 0 0 10px;
+    font-weight: 900;
+}
+
+.carousel-caption-custom p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
+.highlight {
+    color: #00ff00;
+    font-size: 28px;
+
+
+    font-weight: bold;
+}
+
+
+
+.hero-container {
+    background-image: url('/public/media/pets_banner.webp');
+
+
+
+    background-repeat: no-repeat;
+
+
+    position: relative;
+
+    color: white;
+    padding: 20px;
+    height: 400px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    text-align: center;
+
+}
+
+/* Testo */
+.hero-text h2 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    margin-left: 34rem;
+    font-weight: 1000;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    margin-left: 34rem;
+    font-weight: 800;
+}
+
+.hero-text .highlight {
+    color: #00ff00;
+
+    font-weight: bold;
+}
+
+/* Pulsante */
+.cta-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 34rem;
+}
+
+.cta-button:hover {
+    background-color: white;
+    color: black;
 }
