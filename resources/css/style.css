@@ -118,8 +118,8 @@
 .image-container:hover img {
     transform: scale(1.2);
     /* Effetto zoom (20% in più) */
-    filter: hue-rotate(90deg);
-    /* Cambia il colore (puoi sostituire con altre opzioni) */
+    filter: brightness(0.85) sepia(0.6) hue-rotate(40deg)
+        /* Cambia il colore (puoi sostituire con altre opzioni) */
 }
 
 
@@ -259,4 +259,80 @@
 .cta-button:hover {
     background-color: white;
     color: black;
+}
+
+.h-custom-animals {
+    font-size: 7rem;
+    font-weight: 900;
+    color: rgb(204, 202, 202);
+    margin-top: 5rem;
+
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    /* Impedisce all'immagine di strabordare */
+    position: relative;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.2);
+    /* Effetto zoom */
+    filter: brightness(0.85) sepia(0.6) hue-rotate(40deg);
+    /* Intensifica il filtro */
+}
+
+.card-title {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+    color: white;
+    font-size: 1rem;
+}
+
+.li-footer {
+    margin-right: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.bg-footer {
+    background-color: #003936;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
 }

@@ -1,4 +1,4 @@
-<x-layout class="bg-custom">
+<x-layout>
     <header>
         <div class="container-fluid p-0  ">
             <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
@@ -404,6 +404,57 @@
             </div>
 
         </div>
+
+    </section>
+    <section>
+        <h2 class="text-center h-custom-animals">Tutto quello che vuoi <br> sapere sugli animali!</h2>
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-md-4 my-auto col-12">
+                    <div class="card position-relative">
+                        <img src="media/animali-rossi.webp" class="card-img" alt="Animali Rossi">
+                        <div class="card-title">ANIMALI ROSSI</div>
+                        <div class="card-subtitle">8 Specie</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="card position-relative">
+                        <img src="media/sugar-glider-petaurus-breviceps-29363699442jpg.webp" class="card-img"
+                            alt="Animali che Scivolano">
+                        <div class="card-title">ANIMALI CHE SCIVOLANO</div>
+                        <div class="card-subtitle">10 Specie</div>
+                    </div>
+                </div>
+                <div class="col-md-4  col-12">
+                    <div class="card position-relative ">
+                        <a href="
+                        "> <img src="media/animali-verdi.webp" class="card-img"
+                                alt="Animali Verdi">
+                            <div class="card-title">ANIMALI VERDI</div>
+                            <div class="card-subtitle">17 Specie</div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="card position-relative">
+                        <img src="media/animali-blu.webp" class="card-img" alt="Animali Blu">
+                        <div class="card-title">ANIMALI BLU</div>
+                        <div class="card-subtitle">14 Specie</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 my-auto col-12">
+                    <div class="card position-relative">
+                        <img src="media/soffici.webp" class="card-img" alt="Animali Soffici">
+                        <div class="card-title">ANIMALI SOFFICI</div>
+                        <div class="card-subtitle">15 Specie</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 
     </section>
 </x-layout>
