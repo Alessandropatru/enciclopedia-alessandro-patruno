@@ -409,8 +409,8 @@
     <section>
         <h2 class="text-center h-custom-animals">Tutto quello che vuoi <br> sapere sugli animali!</h2>
         <div class="container py-5">
-            <div class="row g-4">
-                <div class="col-md-4 my-auto col-12">
+            <div class="row g-4 my-5">
+                <div class="col-md-4  my-auto  col-12">
                     <div class="card position-relative">
                         <img src="media/animali-rossi.webp" class="card-img" alt="Animali Rossi">
                         <div class="card-title">ANIMALI ROSSI</div>
@@ -425,7 +425,7 @@
                         <div class="card-subtitle">10 Specie</div>
                     </div>
                 </div>
-                <div class="col-md-4  col-12">
+                <div class="col-md-4   col-12">
                     <div class="card position-relative ">
                         <a href="
                         "> <img src="media/animali-verdi.webp" class="card-img"
@@ -436,7 +436,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-5 col-12">
                     <div class="card position-relative">
                         <img src="media/animali-blu.webp" class="card-img" alt="Animali Blu">
                         <div class="card-title">ANIMALI BLU</div>
@@ -444,7 +444,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 my-auto col-12">
+                <div class="col-md-7  col-12">
                     <div class="card position-relative">
                         <img src="media/soffici.webp" class="card-img" alt="Animali Soffici">
                         <div class="card-title">ANIMALI SOFFICI</div>
@@ -452,7 +452,160 @@
                     </div>
                 </div>
             </div>
+            <div class=" d-flex justify-content-center mb-5">
+
+                <button class="my-btn-animals">Scopri tutte le collezioni</button>
+
+            </div>
         </div>
+
+    </section>
+    <section>
+        <div class="container-fluid">
+            <h2 class="text-center h2-custom  mt-5 h-custom-animals mb-5">Animali dalla A alla Z</h2>
+            <div class="row">
+                <div class="col-md-3 p-0">
+
+                    <img src="media/alphabet-block.webp" alt="">
+                </div>
+                <div class="col-md-8 mt-5 d-flex container-alphabet">
+
+                    <div class="row justify-content-center">
+
+
+                        <div class="col-md-1 me-4">
+                            <p class="btn-alphabet m">A</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">B</p>
+                        </div>
+                        <div class="col-md-1 me-4">
+                            <p class="btn-alphabet">C</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">D</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">E</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">F</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">G</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">H</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">I</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">J</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">K</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">L</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">M</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">N</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">O</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">P</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">Q</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">R</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">S</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">T</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">U</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">V</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">W</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">X</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">Y</p>
+                        </div>
+                        <div class="col-md-1 me-4 ">
+                            <p class="btn-alphabet">Z</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5 vh-100">
+        <div class="circle-container d-flex mx-auto">
+            <!-- Cerchio piccolo -->
+            <div class="circle">
+                <img src="media/kingdom-mammals.webp" alt="Cerchio 1">
+                <div class="content">MAMMIFERI<br>6353 Specie</div>
+            </div>
+            <div class="circle">
+                <img src="media/kingdom-birds.webp" alt="Cerchio 2">
+                <div class="content">UCCELLI<br>10363 Specie</div>
+            </div>
+            <div class="circle">
+                <img src="media/kingdom-mollusk.webp" alt="Cerchio 3">
+                <div class="content">MOLLUSCHI<br>4910 Specie</div>
+            </div>
+            <div class="circle">
+                <img src="media/kingdom-reptilies.webp" alt="Cerchio 4">
+                <div class="content">RETTILI<br>4468 Specie</div>
+            </div>
+            <div class="circle">
+                <img src="media/kingdom-amphibians.webp" alt="Cerchio 5">
+                <div class="content">ANFIBI<br>3424 Specie</div>
+            </div>
+
+            <!-- Cerchio centrale -->
+            <div class="circle-center">
+                <p class="mt-5">REGNO ANIMALIA<br>
+                </p>
+                <span class="mt-5 fs-5 fw-bold" style="font-size: 12px; font-weight: normal;">
+                    Esplora gli animali per tassonomia, habitat,<br>
+                    dieta, stile di vita e altro ancora<br>
+                    <p>35071 Specie</p>
+                </span>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+
+
+                </div>
+
+            </div>
+        </div>
+
 
 
 
