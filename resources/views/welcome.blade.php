@@ -2,8 +2,8 @@
     <header>
         <div class="container-fluid p-0  ">
             <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
-                <div class="carousel-inner bg-custom ">
-                    <div class="carousel-item active">
+                <div class="carousel-inner bg-custom carousel-query">
+                    <div class="carousel-item active ">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class=" col-12 col-md-10   header-carousel-custom">
@@ -276,7 +276,7 @@
 
 
                 </div>
-                <div class="col-md-6 me-5 mb-5 mt-5 col-12 ">
+                <div class="col-md-6 me-5 mb-5 mt-5 col-12 p-0 ">
                     <div id="carouselExampleCaptions" class="carousel slide">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -391,14 +391,14 @@
 
             </div>
         </div>
-        </div>
+
     </section>
     <section>
         <div class="container mt-5">
-            <div class="hero-container  ">
+            <div class="hero-container element ">
                 <div class="hero-text text-start">
                     <h2>Our beloved pets <br> are also part of the <br> animal kingdom</h2>
-                    <p>Check Out Our New Project <span class="highlight">Animalia Pets</span></p>
+                    <p>Check Out Our New Project <span class="highlight">MyPets</span></p>
                     <button class="cta-button">Check it!</button>
                 </div>
             </div>
@@ -464,91 +464,91 @@
         <div class="container-fluid">
             <h2 class="text-center h2-custom  mt-5 h-custom-animals mb-5">Animali dalla A alla Z</h2>
             <div class="row">
-                <div class="col-md-3 p-0">
+                <div class="col-md-3 col-1 p-0">
 
                     <img src="media/alphabet-block.webp" alt="">
                 </div>
-                <div class="col-md-8 mt-5 d-flex container-alphabet">
+                <div class="col-md-8  mt-5 d-flex container-alphabet">
 
                     <div class="row justify-content-center">
 
 
-                        <div class="col-md-1 me-4">
+                        <div class="col-md-1 col-3 me-4">
                             <p class="btn-alphabet m">A</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">B</p>
                         </div>
-                        <div class="col-md-1 me-4">
+                        <div class="col-md-1 col-3 me-4">
                             <p class="btn-alphabet">C</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">D</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">E</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">F</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">G</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">H</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">I</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">J</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">K</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">L</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">M</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">N</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">O</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">P</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">Q</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">R</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">S</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">T</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">U</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">V</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">W</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">X</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">Y</p>
                         </div>
-                        <div class="col-md-1 me-4 ">
+                        <div class="col-md-1 col-3 me-4 ">
                             <p class="btn-alphabet">Z</p>
                         </div>
 
@@ -558,8 +558,8 @@
             </div>
         </div>
     </section>
-    <section class="mt-5 vh-100">
-        <div class="circle-container d-flex mx-auto">
+    <section class="  container-circle-my ">
+        <div class="circle-container  d-flex mx-auto  ">
             <!-- Cerchio piccolo -->
             <div class="circle">
                 <img src="media/kingdom-mammals.webp" alt="Cerchio 1">
@@ -586,7 +586,7 @@
             <div class="circle-center">
                 <p class="mt-5">REGNO ANIMALIA<br>
                 </p>
-                <span class="mt-5 fs-5 fw-bold" style="font-size: 12px; font-weight: normal;">
+                <span class="mt-5 fs-5 fw-bold">
                     Esplora gli animali per tassonomia, habitat,<br>
                     dieta, stile di vita e altro ancora<br>
                     <p>35071 Specie</p>
@@ -595,19 +595,73 @@
         </div>
 
     </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-8">
+    <section class=" habitat-section">
+        <h2 class="h2-habitat text-center">HABITAT</h2>
+        <div class="container  ">
+
+            <div class="row g-3 ">
+                <div class="col-md-5">
+
+                    <div class="card position-relative">
+                        <img src="media/climatropicale.webp" class="card-img" alt="clima TROPICALE">
+                        <div class="card-title">CLIMA TROPICALE</div>
+
+                    </div>
+
+
+
+                </div>
+                <div class="col-md-7 ">
+                    <div class="row ">
+                        <div class="col-6 personalize-card-habitat mt-5 ">
+                            <div class="card position-relative">
+                                <img src="media/CONTINETALE.webp" class="card-img" alt="CLIMA TROPICALE">
+                                <div class="card-title-habitat">CLIMA CONTINENTALE</div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-4 personalize-card-habitat mt-5 ">
+                            <div class="card position-relative">
+                                <img src="media/habitat-temperato.webp" class="card-img" alt="ZONA TEMPERATA">
+                                <div class="card-title-habitat">ZONA TEMPERATA</div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-4 personalize-card-habitat mt-2 ">
+                            <div class="card position-relative">
+                                <img src="media/clima-polare.webp" class="card-img" alt="CLIMA CONTINENTALE">
+                                <div class="card-title-habitat">CLIMA POLARE</div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-4 personalize-card-habitat mt-2">
+                            <div class="card position-relative">
+                                <img src="media/clima-desertico.webp" class="card-img" alt="clima desertico">
+                                <div class="card-title-habitat  "> CLIMA DESERTICO
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
 
 
                 </div>
 
+
+
             </div>
+
+
+
+
         </div>
-
-
-
-
+        </div>
     </section>
+
 </x-layout>

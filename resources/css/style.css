@@ -1,7 +1,19 @@
+body {
+    background-color: #003936;
+}
+
+
+
 .icon-my {
     color: rgb(33, 223, 33);
     border-top: 2px solid rgb(33, 223, 33);
     border-left: 3px solid rgb(33, 223, 33);
+}
+
+.bg-nav {
+    background-color: #003835;
+    padding: 20px;
+
 }
 
 .my-link {
@@ -383,6 +395,7 @@
     position: relative;
     width: 600px;
     height: 600px;
+    margin-top: 10rem;
 }
 
 /* Cerchio centrale grande */
@@ -485,4 +498,223 @@
     /* Filtro */
     transition: transform 0.3s ease, filter 0.3s ease;
     /* Animazione fluida */
+}
+
+.habitat-section {
+    margin-top: 20rem;
+}
+
+.personalize-card-habitat {
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 2%;
+    overflow: hidden;
+    /* Impedisce all'immagine di strabordare */
+    position: relative;
+
+}
+
+
+.card-title-habitat {
+    position: absolute;
+
+    left: 1rem;
+
+    bottom: 0.5rem;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+.my-footer {
+    margin-top: 53rem;
+}
+
+.h2-habitat {
+    font-size: 10rem;
+    font-weight: 900;
+    color: rgb(204, 202, 202);
+    margin-bottom: 6rem;
+}
+
+
+
+@media (max-width: 767px) {
+    .header-carousel-custom {
+        text-align: center;
+    }
+
+    .carousel-item {
+        padding: 20px;
+    }
+
+    .title-slide {
+        font-size: 2.5rem;
+    }
+
+    .paragraph-header {
+        font-size: 0.2rem;
+        position: relative;
+
+    }
+
+    .number-carousel {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+
+
+
+    .header-carousel-custom {
+        position: absolute;
+        margin-top: 7%;
+        margin-left: -7rem;
+    }
+
+    .title-slide {
+        font-size: 20px;
+        color: whitesmoke;
+        font-weight: 900;
+    }
+
+    .paragraph-header {
+        font-size: 50px;
+
+        font-weight: 300;
+
+
+
+    }
+
+    .paragraph-header {
+        font-size: 10px;
+
+        font-weight: 300;
+
+    }
+
+    .number-carousel {
+        font-size: 10px;
+        font-weight: 300;
+        color: rgb(33, 223, 33);
+    }
+
+    .h2-custom {
+        margin-left: 0rem;
+        font-size: 60px;
+
+    }
+
+    .circle {
+
+        width: 200px;
+        height: 200px;
+
+        background: #ddd;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 700;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+        border-top: 10px solid yellow;
+        border-bottom: 10px solid yellow
+    }
+
+    .circle-container {
+
+        width: 500px;
+        height: 800px;
+
+    }
+
+    .circle-center {
+
+        width: 300px;
+        height: 300px;
+
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        background: url('/public/media/kingdom.webp') no-repeat center/cover;
+        border: 10px solid yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 00;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    }
+
+    .container-circle-my {
+        margin-left: 0.1rem;
+
+    }
+
+    .circle:nth-child(1) {
+        top: 200%;
+        left: 70%;
+        transform: translate(-50%, 0);
+    }
+
+    .circle:nth-child(2) {
+        top: 110%;
+        left: 5%;
+        transform: translate(0, -50%);
+    }
+
+    .circle:nth-child(3) {
+        top: 75%;
+        right: 5%;
+        transform: translate(0, -50%);
+    }
+
+    .circle:nth-child(4) {
+        top: 130%;
+        left: 69%;
+        transform: translate(-50%, 0);
+    }
+
+    .circle:nth-child(5) {
+        top: 165%;
+        left: 29%;
+        transform: translate(-50%, 0);
+    }
+
+    .h-custom-animals {
+        font-size: 40px;
+    }
+
+    .element {
+        display: none;
+    }
+
+    .circle-container {
+        position: relative;
+        width: 390px;
+        height: 600px;
+    }
+
+    .li-footer {
+        margin-right: 3px;
+        display: none;
+        text-decoration: none;
+        list-style: none;
+    }
+
+
+
+
+
 }

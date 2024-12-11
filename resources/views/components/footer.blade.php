@@ -1,14 +1,14 @@
-<footer class="mt-5 bg-footer">
+<footer class=" bg-footer my-footer">
     <div class="container-fluid d-flex  justify-content-between ">
         <div class="">
-            <div class="ms-5 ">
+            <div class=" ">
                 <i class="fa-solid fa-dragon fs-2 icon-my mb-3 me-5 p-3"></i>
                 <p class="text-white">Sviluppato da <span class="text-success">Alessandro Patruno!</span> </p>
             </div>
 
         </div>
 
-        <div class="d-flex mt-3">
+        <div class="d-flex mt-3 ">
             <div>
                 <ul class="d-flex text-white mt-4 ">
                     <li class="li-footer">COLLEZIONI</li>
@@ -20,7 +20,7 @@
             </div>
 
 
-            <form class="d-flex mb-5 mt-3 " role="search">
+            <form class="d-flex mb-5 mt-3  " role="search">
                 <input class="form-control me-2 " type="search" placeholder="cerca.." aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
@@ -39,7 +39,7 @@
 
 
             </div>
-            <div class="col-md-4 col-12  d-flex mt-5">
+            <div class="col-md-4 col-12  d-flex mt-5 mx-auto">
                 <form class="d-flex mb-3  " role="search">
                     <input class="form-control me-2 " type="search" placeholder="inserisci la tua mail.."
                         aria-label="Search">
